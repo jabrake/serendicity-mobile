@@ -279,10 +279,10 @@ if(navigator.geolocation) {
         console.log(initialLocation);
 
         myLat = initialLocation.k;
-        myLong = initialLocation.A;
+        myLong = initialLocation.B;
 
         console.log("got location!");
-        gotLocation = true
+        gotLocation = true;
         console.log(gotLocation);
     },
 
